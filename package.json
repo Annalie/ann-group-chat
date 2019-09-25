@@ -1,5 +1,5 @@
 {
-  "name": "node-simple-group-chat",
+  "name": "simple-group-chat",
   "version": "1.0.0",
   "description": "A simple group chat built using Node.js and Socket.io",
   "main": "index.js",
@@ -10,7 +10,22 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.16.4",
-    "socket.io": "^2.2.0"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annalie/ann-group-chat.git"
+  },
+  "keywords": [
+    "robot"
+  ],
+  "bugs": {
+    "url": "https://github.com/Annalie/ann-group-chat/issues"
+  },
+  "homepage": "https://github.com/Annalie/ann-group-chat#readme",
+  "engines": {
+    "node": "10.16"
   }
 }
